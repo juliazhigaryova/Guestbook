@@ -1,0 +1,98 @@
+footer {
+    display: block;
+    border-top: 1px solid #999;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+main {
+    display: block;
+    padding: 10px;
+}
+
+.menu__item {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.message {
+    margin-bottom: 20px;
+}
+
+.message__name {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.message__text {
+    font-style: italic;
+}
+
+.message_date {
+    color: #999999;
+    font-size: 0.8em;
+}
+
+.comments {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.comments h4 {
+    margin: 15px;
+    font-size: 1.1em;
+}
+
+.comment {
+    margin-bottom: 10px;
+}
+
+.comment__name {
+    font-weight: bold;
+}
+
+.comment__text {
+    font-style: italic;
+}
+
+.comment_date {
+    color: #999999;
+    font-size: 0.8em;
+}
+
+.form-message__label {
+    display: block;
+}
+
+.form-message__field
+{
+    width: 90%;
+}
+
+.form-message__group {
+    margin-bottom: 5px;
+}
+
+.form-message__btn {
+    padding: 12px;
+    font-size: 1.4em;
+    border-radius: 8px;
+}
+
+.error-field {
+    font-size: 0.8em;
+    padding: 0 0 0 10px;
+}
+
+.error-field_red {
+    color: red;
+}

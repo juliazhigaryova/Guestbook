@@ -1,0 +1,7 @@
+RewriteEngine on
+Options +FollowSymLinks
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+#Все запросы, кроме статических директорий и файлов, перенаправляем на входной файл приложения index.php
+RewriteRule . index.php
