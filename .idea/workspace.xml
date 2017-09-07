@@ -1,41 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab559384-1244-4efb-b7fd-6168d229b26c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/guestbook.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/autoload.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/base/App.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/base/Controller.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/base/Model.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/base/config/main.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/base/helpers/Html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/base/models/ModelCsv.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/base/models/ModelMysqli.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/base/models/ModelPdo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/base/validators/Validator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/base/validators/ValidatorInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/base/validators/ValidatorRegExp.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/base/validators/ValidatorRequired.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/base/validators/ValidatorString.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/components/ComponentInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/components/Db.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/components/DbMysqli.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/components/Request.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/controllers/MainController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/data/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/models/Comments.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/models/Messages.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/views/add-comment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/views/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/views/layout.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/views/message.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.php" afterPath="" />
-    </list>
+    <list default="true" id="ab559384-1244-4efb-b7fd-6168d229b26c" name="Default" comment="" />
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -77,8 +43,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <first_editor relative-caret-position="340">
+                <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -240,7 +206,7 @@
       <workItem from="1497791531358" duration="30017000" />
       <workItem from="1499274155559" duration="15780000" />
       <workItem from="1504524433701" duration="55000" />
-      <workItem from="1504795386911" duration="192000" />
+      <workItem from="1504795386911" duration="713000" />
     </task>
     <task id="LOCAL-00001" summary="Добавила простую форму">
       <created>1494963079109</created>
@@ -256,11 +222,18 @@
       <option name="project" value="LOCAL" />
       <updated>1495313243587</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Добавлен фай README.md">
+      <created>1504795655746</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1504795655746</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69092000" />
+    <option name="totallyTimeSpent" value="69613000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -273,12 +246,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16335878" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16335878" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733223" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9705401" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -290,7 +264,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -342,7 +315,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавила простую форму" />
     <MESSAGE value="Сделана модель models/Comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделана модель models/Comments" />
+    <MESSAGE value="Добавлен фай README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен фай README.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -681,8 +655,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <first_editor relative-caret-position="340">
+            <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
             <folding />
           </first_editor>
           <second_editor />
