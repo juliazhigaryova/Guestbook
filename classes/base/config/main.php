@@ -9,7 +9,7 @@ return [
             'db' => 'guest_book',
             'user' => 'guest_book',
             'password' => 'guest_book',
-            'port' => '3309',
+            'port' => '3306',
         ],
         'request' => [
             'class' => 'Request',

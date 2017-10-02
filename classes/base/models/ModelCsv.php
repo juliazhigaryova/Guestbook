@@ -72,7 +72,7 @@ abstract class ModelCsv extends Model
 
     /**
      * Метод выбирает из файла csv данные и возращает из как массив.
-     * В массиве находятся экземпляры ронкретных моделей, которые связаны с данными.
+     * В массиве находятся экземпляры конкретных моделей, которые связаны с данными.
      *
      * @param null $conditions Условие
      * @param array $order Сортировка данных
@@ -90,7 +90,7 @@ abstract class ModelCsv extends Model
         $attributesModel = static::getAttributes();
 
         //В цикле while построчно читаем файл, преобразуя строку csv в массив
-        //Цикл работает пока в файле не закончатся строки
+        //Цикл работает, пока в файле не закончатся строки
         while (($strItems = fgetcsv($connect, 10000, self::DELITEL_DATA_CSV)) !== false) {
             //Количество элементов в массиве - строка в csv преобразованная в массив
             $count = count($strItems);
@@ -172,7 +172,7 @@ abstract class ModelCsv extends Model
     }
 
     /**
-     * Метод ищей одну запись в файле с учетом условия и возвращает ее.
+     * Метод ищет одну запись в файле с учетом условия и возвращает ее.
      *
      * @param array $conditions Условие
      * @return false|static Возвращает модель, заполненную данными или false, если ничего не найдено
@@ -198,7 +198,7 @@ abstract class ModelCsv extends Model
         }
 
         while (($strItems = fgetcsv($connect, 10000, self::DELITEL_DATA_CSV)) !== false) {
-            //Условие по которому выбираются данные
+            //Условие, по которому выбираются данные
             if(isset($strItems[$conditionsCsvKey]) && $strItems[$conditionsCsvKey] == $conditionsCsvValue)
             {
                 $searchDataPk = $strItems;
