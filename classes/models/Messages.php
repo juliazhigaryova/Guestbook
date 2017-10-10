@@ -4,6 +4,7 @@ namespace classes\models;
 
 use classes\base\models\ModelPdo as Model;
 //use classes\base\models\ModelMysqli as Model;
+//use classes\base\models\ModelCsv as Model;
 
 /**
  * Модель "Сообщения"
